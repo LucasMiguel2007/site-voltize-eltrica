@@ -228,7 +228,7 @@ const whatsappNumber =
 
 
 const whatsappMessage =
-    "Olá! Gostaria de solicitar um orçamento para um serviço elétrico.";
+    "Olá! Gostaria de solicitar um orçamento para contratar o serviço. ";
 
 
 const whatsappButtons =

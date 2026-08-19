@@ -1297,17 +1297,11 @@ body::before {
 ========================================================= */
 
 .services-grid {
-
-    display:
-        grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    gap:
-        18px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 320px));
+    justify-content: center;
+    gap: 24px;
 }
-
 
 /* =========================================================
    SERVICE CARD
