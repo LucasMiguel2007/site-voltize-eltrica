@@ -103,18 +103,6 @@ body::before {
 
     pointer-events: none;
 
-    background:
-        radial-gradient(
-            circle at 10% 20%,
-            rgba(255, 102, 0, 0.08),
-            transparent 25%
-        ),
-
-        radial-gradient(
-            circle at 90% 70%,
-            rgba(255, 102, 0, 0.05),
-            transparent 25%
-        );
 
     z-index: -2;
 }
@@ -233,21 +221,6 @@ body::before {
 
     align-items: center;
     justify-content: center;
-
-    background:
-        linear-gradient(
-            145deg,
-            #171b23,
-            #080a0e
-        );
-
-    border:
-        1px solid
-        rgba(255, 102, 0, 0.45);
-
-    box-shadow:
-        0 0 20px
-        rgba(255, 102, 0, 0.15);
 
     overflow: hidden;
 
@@ -468,14 +441,6 @@ body::before {
 
     border-radius:
         50%;
-
-    background:
-        radial-gradient(
-            circle,
-            rgba(255, 102, 0, 0.18),
-            rgba(255, 102, 0, 0.03) 40%,
-            transparent 70%
-        );
 
     filter:
         blur(15px);
@@ -895,20 +860,6 @@ body::before {
     border-radius:
         35px;
 
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255,255,255,0.07),
-            rgba(255,255,255,0.02)
-        );
-
-    box-shadow:
-        0 30px 80px
-        rgba(0,0,0,0.4),
-
-        inset 0 1px 0
-        rgba(255,255,255,0.07);
-
     backdrop-filter:
         blur(20px);
 
@@ -965,10 +916,6 @@ body::before {
 
     background:
         #050608;
-
-    border:
-        1px solid
-        rgba(255,102,0,0.4);
 
     box-shadow:
         0 0 70px
@@ -1277,22 +1224,6 @@ body::before {
 
 
 /* =========================================================
-   SERVICES
-========================================================= */
-
-#servicos {
-
-    background:
-        linear-gradient(
-            180deg,
-            #080a0e,
-            #0d1016,
-            #080a0e
-        );
-}
-
-
-/* =========================================================
    SERVICE GRID
 ========================================================= */
 
@@ -1333,13 +1264,6 @@ body::before {
 
     border-radius:
         24px;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255,255,255,0.055),
-            rgba(255,255,255,0.018)
-        );
 
     transition:
         transform 0.4s ease,
@@ -1433,52 +1357,20 @@ body::before {
 ========================================================= */
 
 .service-icon {
-
-    width:
-        55px;
-
-    height:
-        55px;
-
-    display:
-        flex;
-
-    align-items:
-        center;
-
-    justify-content:
-        center;
-
-    margin-bottom:
-        25px;
-
-    border-radius:
-        16px;
-
-    background:
-        rgba(255,102,0,0.1);
-
-    border:
-        1px solid
-        rgba(255,102,0,0.2);
-
-    font-size:
-        1.4rem;
-
-    transition:
-        transform 0.35s ease,
-        background 0.35s ease;
+    /* seus estilos atuais */
 }
 
-.service-card:hover .service-icon {
+.service-icon svg {
+    width: 32px;
+    height: 32px;
 
-    transform:
-        scale(1.1)
-        rotate(-5deg);
-
-    background:
-        rgba(255,102,0,0.18);
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
+
 
 
 /* =========================================================
@@ -1627,12 +1519,6 @@ body::before {
     border-radius:
         35px;
 
-    background:
-        linear-gradient(
-            145deg,
-            #161a21,
-            #090b0f
-        );
 
     box-shadow:
         0 30px 70px
@@ -1996,13 +1882,6 @@ body::before {
     overflow:
         hidden;
 
-    background:
-        linear-gradient(
-            135deg,
-            #11151c,
-            #0a0c11
-        );
-
     border-radius:
         35px;
 
@@ -2023,9 +1902,6 @@ body::before {
 
     border-radius:
         50%;
-
-    background:
-        rgba(255,102,0,0.12);
 
     filter:
         blur(100px);
